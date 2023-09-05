@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  /* padding: 20px; */
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#question-container {
+  width: 60vw;
+  height: 60vh;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: large;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+.answer-section,
+.start-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.result-container {
+  display: none;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid yellow; */
+}
+.result-container p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.answer,
+.correct-answer,
+.start,
+.again {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  height: 3em;
+  border-radius: 2em;
+}
+
+.answer:hover,
+.correct-answer:hover,
+.start:hover,
+.again:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.progress-bar-container {
+  height: 1rem;
+  margin: 0;
+  padding: 0;
+  margin: 1em 0 0 0;
+  background: rgba(255, 255, 255, 0.4);
+  /* border: 1px white solid; */
+  width: 100%;
+  display: none;
+}
+.progress-bar-left {
+  height: 100%;
+  display: inline-block;
+  background: rgba(55, 255, 55, 0.4);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.icon {
+  width: 24px;
+  margin: 6px;
+}
+
+.profile-box {
+  font-size: 50px;
+  width: 100%;
+}
+
+.profile-box p {
+  margin: 0;
+  font-size: 1.2rem;
+}
