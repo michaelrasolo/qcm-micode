@@ -29,15 +29,17 @@ body {
 }
 
 h1 {
+  font-size: 1.8rem;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: large;
+  font-size: 1.3rem;
   margin-top: 0;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .question {
@@ -65,7 +67,7 @@ p {
   /* border: 1px solid yellow; */
 }
 .result-container p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
