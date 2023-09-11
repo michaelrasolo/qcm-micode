@@ -8,10 +8,8 @@ I tweeked it and made a quiz for recruiters to know some funny facts about me.
 
 ## Deployment
 
-Deployed on Vercel
-```bash
-https://qcm-michael.vercel.app/
-```
+Deployed on Vercel: https://qcm-michael.vercel.app/
+
 
 
 ## Tech Stack
